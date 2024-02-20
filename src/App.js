@@ -83,12 +83,6 @@ export default function App() {
     context.scale(scale, scale);
     context.translate(-rect.left, -rect.top);
 
-    // Draw on the PDF canvas here
-    // Example:
-    if (isDrawing) {
-      // Your drawing logic here
-    }
-
     context.restore();
   }
 
