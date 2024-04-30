@@ -46,8 +46,9 @@ const CoffeeList = () => {
         square={false}
         sx={{
           backgroundColor: "#111315",
-          pl: 2,
-          pr: 2,
+          pt: 1,
+          pl: 5,
+          pr: 5,
           width: "50%",
           borderRadius: 3,
         }}
@@ -60,7 +61,7 @@ const CoffeeList = () => {
             backgroundImage: `url(${vector})`,
             backgroundSize: "contain",
             backgroundRepeat: "no-repeat",
-            backgroundPosition: "right",
+            backgroundPosition: "75%",
           }}
         >
           <Grid item xs={12} sm={12} md={8} sx={{ textAlign: "center" }}>
