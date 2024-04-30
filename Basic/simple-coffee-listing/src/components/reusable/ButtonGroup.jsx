@@ -24,7 +24,7 @@ const CustomButtonGroup = ({
               "&:hover": {
                 backgroundColor:
                   selectedButton === button ? "#6F757C" : "initial",
-                color: selectedButton === button ? "#fff" : "#6F757C", // Keep text white for selected button
+                color: selectedButton === button ? "#fff" : "#6F757C",
               },
             }}
           >

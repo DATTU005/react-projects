@@ -1,4 +1,3 @@
-import "./App.css";
 import CoffeeList from "./components/reusable/CoffeeList";
 
 function App() {

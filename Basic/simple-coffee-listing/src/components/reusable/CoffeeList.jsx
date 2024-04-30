@@ -38,16 +38,16 @@ const CoffeeList = () => {
         display: "flex",
         justifyContent: "center",
         alignItems: "center",
-        height: "80vh",
+        height: "auto",
+        padding: "20px",
       }}
     >
       <Paper
         square={false}
         sx={{
           backgroundColor: "#111315",
-          mt: 20,
-          pl: 5,
-          pr: 5,
+          pl: 2,
+          pr: 2,
           width: "50%",
           borderRadius: 3,
         }}
@@ -63,7 +63,7 @@ const CoffeeList = () => {
             backgroundPosition: "right",
           }}
         >
-          <Grid item sx={{ textAlign: "center" }}>
+          <Grid item xs={12} sm={12} md={8} sx={{ textAlign: "center" }}>
             <Typography
               variant="h2"
               sx={{
@@ -95,7 +95,7 @@ const CoffeeList = () => {
 
         <br />
         <Grid container justifyContent="center">
-          <Grid item>
+          <Grid item xs={12} sm={12} md={8}>
             <CustomButtonGroup
               buttons={["All Products", "Available Now"]}
               handleButtonClick={handleButtonClick}
@@ -108,7 +108,7 @@ const CoffeeList = () => {
         <Grid container justifyContent="center" spacing={2}>
           {filteredCoffees.map((coffee) => (
             <Grow in key={coffee.id}>
-              <Grid item md={4}>
+              <Grid item xs={12} sm={6} md={4}>
                 <CoffeeCard coffee={coffee} />
               </Grid>
             </Grow>

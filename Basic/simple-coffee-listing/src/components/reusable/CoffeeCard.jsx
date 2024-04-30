@@ -10,6 +10,7 @@ const CoffeeCard = ({ coffee }) => {
         backgroundColor: "transparent",
         color: "white",
         position: "relative",
+        borderRadius: "10px",
       }}
     >
       <CardMedia
