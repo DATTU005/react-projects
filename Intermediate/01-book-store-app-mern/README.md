@@ -25,7 +25,7 @@ This project is a MERN (MongoDB, Express.js, React.js, Node.js) stack applicatio
 
 # Functionality
 
-The key features of the Currency Exchanger include:
+The key features of the Book Store include:
 
 1. Books CRUD Operations: The application allows users to perform CRUD operations on books, including adding new books, viewing book details, editing book information, and deleting books.
 
