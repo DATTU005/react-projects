@@ -1,8 +1,11 @@
-* {
+body {
+  font-family: "DM Sans", sans-serif;
+}
+
+body {
   background-image: url("./assets/bg-cafe.jpg");
   background-color: #121315;
-  height: 300px;
-  background-position: center;
+  background-position: top center;
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: auto 400px;
 }
