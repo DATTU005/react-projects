@@ -1,5 +1,4 @@
 import React, { useState, useEffect } from "react";
-import vector from "../../assets/vector.svg";
 import { Grid, Grow, Paper, Typography } from "@mui/material";
 import CoffeeCard from "./CoffeeCard";
 import CustomButtonGroup from "./ButtonGroup";
@@ -58,7 +57,7 @@ const CoffeeList = () => {
           justifyContent="center"
           color="white"
           sx={{
-            backgroundImage: `url(${vector})`,
+            backgroundImage: `url(src/assets/vector.svg)`,
             backgroundSize: "contain",
             backgroundRepeat: "no-repeat",
             backgroundPosition: "75%",
