@@ -1,3 +1,3 @@
 #Simple coffee listing UI
 
-https://simple-coffee-listing-27ku3zfdw-dattu005s-projects.vercel.app/
+https://simple-coffee-listing-a5gzsxfe8-dattu005s-projects.vercel.app/
